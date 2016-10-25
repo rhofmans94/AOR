@@ -13,7 +13,7 @@ Shift::Shift(int id) {
 int Shift::getId() {
 	return id;
 }
-void Shift::setId(int) {
+void Shift::setId(int id) {
 	this->id = id;
 }
 int Shift::getStartTime() {

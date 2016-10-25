@@ -28,6 +28,6 @@ void Nurse::setEmploymentRate(double employmentRate) {
 int Nurse::getType() {
 	return type;
 }
-void Nurse::setType(int) {
+void Nurse::setType(int type) {
 	this->type = type;
 }

@@ -13,7 +13,7 @@ int Patient::getId() {
 	return id;
 }
 
-void Patient::setId(int) {
+void Patient::setId(int id) {
 	this->id = id;
 }
 
@@ -21,7 +21,7 @@ int Patient::getAcuity() {
 	return acuity;
 }
 
-void Patient::setAcuity(int) {
+void Patient::setAcuity(int acuity) {
 	this->acuity = acuity;
 }
 
@@ -29,7 +29,7 @@ int Patient::getLengthOfStay() {
 	return lengthOfStay;
 }
 
-void Patient::setLengthOfStay(int) {
+void Patient::setLengthOfStay(int lengthOfStay) {
 	this->lengthOfStay = lengthOfStay;
 }
 
@@ -37,7 +37,7 @@ double Patient::getWorkload() {
 	return workload;
 }
 
-void Patient::setWorkload(double) {
+void Patient::setWorkload(double workload) {
 	this->workload = workload;
 }
 
