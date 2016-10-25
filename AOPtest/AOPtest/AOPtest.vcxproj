@@ -110,8 +110,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
-    <ClCompile Include="test2.cpp" />
+    <ClCompile Include="Department.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Nurse.cpp" />
+    <ClCompile Include="Patient.cpp" />
+    <ClCompile Include="Preference.cpp" />
+    <ClCompile Include="Shift.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Department.h" />
+    <ClInclude Include="Nurse.h" />
+    <ClInclude Include="Patient.h" />
+    <ClInclude Include="Preference.h" />
+    <ClInclude Include="Shift.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
